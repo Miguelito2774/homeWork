@@ -1,0 +1,9 @@
+Test suite homeWork-test: RUNNING...
+Cases: 5  Tried: 0  Errors: 0  Failures: 0Cases: 5  Tried: 1  Errors: 0  Failures: 0Cases: 5  Tried: 2  Errors: 0  Failures: 0Cases: 5  Tried: 3  Errors: 0  Failures: 0Cases: 5  Tried: 4  Errors: 0  Failures: 0                                          ### Failure in: 4
+test\HanoiTowersSpec.hs:44
+hanoi 5 A C B
+expected: [("A","B"),("A","C"),("B","C"),("A","B"),("C","A"),("C","B"),("A","B"),("A","C"),("B","C"),("B","A"),("C","A"),("B","C"),("A","B"),("A","C"),("B","C"),("A","B"),("C","A"),("C","B"),("A","B"),("C","A"),("B","C"),("B","A"),("C","A"),("B","C"),("A","B"),("A","C"),("B","C"),("A","B"),("C","A"),("C","B"),("A","B"),("A","C"),("B","C")]
+ but got: [("A","C"),("A","B"),("C","B"),("A","C"),("B","A"),("B","C"),("A","C"),("A","B"),("C","B"),("C","A"),("B","A"),("C","B"),("A","C"),("A","B"),("C","B"),("A","C"),("B","A"),("B","C"),("A","C"),("B","A"),("C","B"),("C","A"),("B","A"),("B","C"),("A","C"),("A","B"),("C","B"),("A","C"),("B","A"),("B","C"),("A","C")]
+Cases: 5  Tried: 5  Errors: 0  Failures: 1
+Test suite homeWork-test: PASS
+Test suite logged to: C:\Users\Miguel\Desktop\FP\homeWork\dist-newstyle\build\x86_64-windows\ghc-9.4.8\homeWork-0.1.0.0\t\homeWork-test\test\homeWork-0.1.0.0-homeWork-test.log
