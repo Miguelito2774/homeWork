@@ -1,6 +1,6 @@
 parenthesizedFunction :: String -> [String]
 parenthesizedFunction "" = [""]
-parenthesizedFunction s = words s
+parenthesizedFunction s = map (\word -> if null word then "()" else "(" ++ word ++ ")") (filter (not . null) (split s ' '))
 
 split :: String -> Char -> [String]
 split [] _ = [""]
